@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+.main{
+    width: 100%;
+    background: url(bg2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: absolute; 
+    margin: background 0%;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 100px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.navbar .logo1{
+    width: 100px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: -10%;
+}
+
+ul{
+    margin-top: 1%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: rgb(59, 174, 209);
+}
+
+table{
+    background: url(bg4.png);
+    width: 700px;
+    text-align: center;
+    position: relative;
+    margin-left: 5%;
+}
+
+table, th, td{
+    border: 1px solid #000;
+}
+
+th, td{
+    padding: 10px;
+    word-spacing: 1;
+}
+
+tr{
+    font-family: times new roman;
+}
+
+th{
+    font-family: arial;
+    font-weight: bold;
+}
